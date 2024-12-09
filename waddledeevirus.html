@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ワドルディが検出されました</title>
+         <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body class="orange lighten-4 brown-text">
+        <div class="container">
+            <h1>警告</h1>
+            <h4>お使いの端末からワドルディが検出されました</h4>
+            <div class="center-align">
+                <br><img src="images/kenshutsuwaddledee.png" alt="waddledee" style="width: 20%;">
+                <p class="flow-text">大慌てですね。</p>
+            </div>
+            <p class="flow-text"><span id="timer" style="font-size: 2em;"></span>秒以内に以下のリンクから対処してください。</p>
+            <a class="btn btn-large" href="https://x.com/mikukirrrrrby">ワドルディを除去する</a>
+            <div id="alert" class="modal">
+                <div class="modal-content black-text">
+                    <h4>警告</h4>
+                    <p>お使いの端末からワドルディが検出されました。次のページからワドルディを除去してください。</p>
+                </div>
+                <div class="modal-footer">
+                    <button id="close" class="btn btn-large">OK</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="myscript.js"></script>
+    </body>
+</html>
